@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+    margin-bottom: 22px;
+}
+.head{
+    margin-left: 0px;
+        padding: 0;
+        border: 2px black solid;
+        text-align: center;
+        height: 20px;
+        width: 80px;
+        float: right;
+    background-color: blue;
+}
+.card{
+    flex-basis: 32%;
+    background: #fff3f3;
+    border-radius: 0;
+    margin-top: 0%;
+    margin-bottom: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: 2px solid;
+    background-color: aqua;
+    
+}
+.display{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
